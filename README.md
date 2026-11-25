@@ -109,6 +109,19 @@ Security
 - Users can access only their own expense records.
 - Protected endpoints require authentication.
 
+## Screenshots
+
+### Swagger API Documentation
+![Swagger API Documentation]
+(screenshots/Swagger-api.png)
+
+### JWT Authentication
+![JWT Authentication]
+(screenshots/jwt-authentications.png)
+
+### Expense API Response
+![Expense API Response]
+(screenshots/expense-response.png)
 Author
 
 Saurabh Kumar
