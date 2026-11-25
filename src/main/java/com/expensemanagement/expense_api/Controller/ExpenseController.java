@@ -45,7 +45,7 @@ public class ExpenseController {
 
     @GetMapping()
     public Page<ExpenseResponse> getAllExpense(Authentication authentication,
-        @PageableDefault(size = 10,sort = "expenseDate",direction = Sort.Direction.DESC)Pageable pageable){
+        @PageableDefault(size = 10,sort = "expenseDate",direction = Sort.Direction.ASC)Pageable pageable){
 
         Integer userId = getLoggedUserId(authentication) ;
         return expenseService.getAllExpenses(userId ,pageable) ;
