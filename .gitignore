@@ -40,3 +40,17 @@ build/
 
 ### VS Code ###
 .vscode/
+
+## Screenshots
+
+### Swagger API Documentation
+![Swagger API Documentation]
+(screenshots/Swagger-api.png)
+
+### JWT Authentication
+![JWT Authentication]
+(screenshots/jwt-authentications.png)
+
+### Expense API Response
+![Expense API Response]
+(screenshots/expense-response.png)
